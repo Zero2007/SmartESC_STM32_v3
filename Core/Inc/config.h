@@ -19,7 +19,7 @@
 
 #define SPEEDFILTER 3
 
-//#define ADCTHROTTLE
+#define ADCTHROTTLE
 //#define FAST_LOOP_LOG
 //#define DISABLE_DYNAMIC_ADC
 
@@ -47,9 +47,9 @@
 #define GEAR_RATIO 11 //15 for original M365 motor
 
 // speed limits for invividual modes in kph
-#define SPEEDLIMIT_ECO 6
-#define SPEEDLIMIT_NORMAL 20
-#define SPEEDLIMIT_SPORT 50
+#define SPEEDLIMIT_ECO 10
+#define SPEEDLIMIT_NORMAL 30
+#define SPEEDLIMIT_SPORT 60
 
 // motor current limits for invividual modes in mA, see default settings at https://max.cfw.sh/#
 #define PH_CURRENT_MAX_ECO 16000
@@ -64,11 +64,11 @@
 
 // maximum battery currents in mA
 #define BATTERYCURRENT_MAX 14500
-#define REGEN_CURRENT_MAX 10000
+#define REGEN_CURRENT_MAX 5000
 
 // battery voltage limits in mV
 #define BATTERYVOLTAGE_MIN 33000
-#define BATTERYVOLTAGE_MAX 42000
+#define BATTERYVOLTAGE_MAX 58000
 
 
 // motor spinning direction
